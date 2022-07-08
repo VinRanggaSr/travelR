@@ -1,0 +1,39 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    color: #0E0546;
+}
+.navbar-brand{
+    img{
+        max-height: 40px;
+    }
+}
+.navbar-light{
+    .navbar-nav{
+        .navbar-link{
+            color: #0E0546;
+
+            &.active{
+                font-weight: bold;
+                color: #0E0546 !important;
+            }
+        }
+    }
+}
+.btn-navbar-right{
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-left: -10px !important;
+
+    height: 70px;
+    border-radius: 0;
+}
+.btn-login{
+    background-color: #0E0546;
+    color: #ffffff;
+
+    &:hover{
+        background-color: #1e3777;
+        color: #ffffff;
+    }
+}
