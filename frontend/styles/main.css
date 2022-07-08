@@ -1,11 +1,13 @@
 body {
+  margin-left: 0px;
   background-color: #ffffff;
   font-family: "Inter", sans-serif;
   color: #0E0546;
 }
 
-.navbar-brand img {
-  max-height: 40px;
+.navbar img {
+  height: 50px;
+  width: 120px;
 }
 
 .navbar-light .navbar-nav .navbar-link {
@@ -14,6 +16,10 @@ body {
 .navbar-light .navbar-nav .navbar-link.active {
   font-weight: bold;
   color: #0E0546 !important;
+}
+
+.navbar-collapse {
+  margin-left: 48%;
 }
 
 .btn-navbar-right {
