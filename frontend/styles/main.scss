@@ -89,7 +89,7 @@ header{
         }
         p{
             font-size: 20px;
-            font-weight: lighter;
+            font-weight: 900;
         }
     }
 }
@@ -102,7 +102,7 @@ header{
     margin-bottom: -180px;
 
     .section-popular-heading{
-        margin-top: 150px;
+        margin-top: 180px;
 
         h2,p{
             color: #ffffff;
@@ -157,8 +157,96 @@ header{
     h2{
         font-family: 'Playfair Display', serif;
         font-weight: bold;
+        font-size: 40px;
+    }
+    p{
+        font-size: 18px;
     }
     img{
         max-width: 100%;
+    }
+}
+
+.section-testimonial-heading{
+    background: linear-gradient(180deg, #FFFFFF 0%, #f7f9ff 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    h2{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
+.section-testimonial-content{
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial{
+        padding: 40px 20px 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        
+        .testimonial-content{
+            min-height: 380px;
+        }
+
+        h3{
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .testimonial{
+            font-weight: 200;
+            font-size: 26px;
+            color: #6e6e6e;
+            min-height: 160px;
+        }
+
+        .trip-to{
+            font-weight: normal;
+            font-size: 22px;
+            color: #6e6e6e;
+        }
+
+        hr{
+            margin-left: 20px;
+            margin-top: -20px;
+        }
+
+        img{
+            max-width: 30%;
+        }
+    }
+
+    .btn-get-started{
+        background-color: #FB7C1B;
+        color: #ffffff;
+
+        &:hover{
+            background-color: #ffaa69;
+            color: #ffffff;
+        }
+    }
+
+    .btn-need-help{
+        background-color: #f2f2f2;
+        color: #c3c3c3;
+
+        &:hover{
+            background-color: #fafafa;
+            color: #c3c3c3;
+        }
+    }
+}
+
+.section-footer{
+    a{
+        color: #0B0338;
+        text-decoration: none;
     }
 }
