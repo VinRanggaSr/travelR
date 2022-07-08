@@ -4,6 +4,8 @@ body{
     font-family: 'Inter', sans-serif;
     color: #0E0546;
 }
+
+// navbar
 .navbar{
     img{
         height: 50px;
@@ -23,7 +25,7 @@ body{
     }
 }
 .navbar-collapse{
-    margin-left:48%;
+    margin-left:51%;
 }
 .btn-navbar-right{
     margin-top: -10px !important;
@@ -40,5 +42,34 @@ body{
     &:hover{
         background-color: #1e3777;
         color: #ffffff;
+    }
+}
+
+// header
+header{
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+
+    h1,p{
+        color: #ffffff;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    p{
+        font-size: 22px;
+    }
+    .btn-get-started{
+        background-color: #FB7C1B;
+        color: #ffffff;
+
+        &:hover{
+            background-color: #ffaa69;
+            color: #ffffff;
+        }
     }
 }
