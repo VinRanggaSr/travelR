@@ -294,6 +294,12 @@ header{
         }
     }
 
+    .card-right{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: 0;
+    }
+
     .features{
         margin-top: 20px;
 
@@ -338,4 +344,30 @@ header{
         }
         
     }
+
+    .members{
+        .member-image{
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .join-container{
+        margin-top: -16px;
+        
+    }
+
+    .btn-join-now{
+        background-color: #FB7C1B;
+        color: #ffffff;
+        border-radius: 0;
+        width: 100%;
+
+        &:hover{
+            background-color: #ffaa69;
+            color: #ffffff;
+        }
+    }
+
+    
 }
