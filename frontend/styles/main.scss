@@ -293,6 +293,12 @@ header{
             color: #B1B1B1;
         }
 
+        h3{
+            font-weight: 300;
+            font-size: 14px;
+            color: #0B0338;
+        }
+
         .trip-informations{
             th{
                 font-weight: 300;
@@ -304,12 +310,53 @@ header{
                 font-size: 18px;
                 color: #B1B1B1;
             }
+
+            .text-blue{
+                color: #0E0546;
+                font-weight: bold;
+            }
+
+            .text-orange{
+                color: #FB7C1B;
+                font-weight: bold;
+            }
         }
 
-        h3{
-            font-weight: 600;
+        .payment-instructions{
+            font-weight: 300;
             font-size: 14px;
-            color: #0B0338;
+            color: #B1B1B1;
+        }
+
+        .bank{
+            .bank-item{
+                h3{
+                    font-size: 18px;
+                    color: #0E0546;
+                    margin-top: 0;
+                }
+                p{
+                    margin-bottom: 0;
+                }
+
+                .description{
+                    margin-left: 10px;
+                    overflow: hidden;
+                    float: left;
+
+                    p{
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: #0E0546;
+                    }
+                }
+            }
+
+            .bank-image{
+                width: 45px;
+                height: 45px;
+                float: left;
+            }
         }
 
         .disclaimer{
@@ -317,29 +364,29 @@ header{
             font-size: 14px;
             color: #B1B1B1;
         }
-    }
-
-    .gj-datepicker{
-        .datepicker{
-            border-right: 0;
+        .gj-datepicker{
+            .datepicker{
+                border-right: 0;
+            }
+    
+            .input-group-append{
+                .btn{
+                    padding-right: 30px;
+                }
+            }
         }
-
-        .input-group-append{
-            .btn{
-                padding-right: 30px;
+        
+        .btn-add-now{
+            background-color: #0E0546;
+            color: #ffffff;
+    
+            &:hover{
+                background-color: #1e3777;
+                color: #ffffff;
             }
         }
     }
-    
-    .btn-add-now{
-        background-color: #0E0546;
-        color: #ffffff;
 
-        &:hover{
-            background-color: #1e3777;
-            color: #ffffff;
-        }
-    }
 
     .card-right{
         border-bottom-left-radius: 0;
