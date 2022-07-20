@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel.R</title>
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="frontend/libraries/bootstrap-5.1.3-dist/css/bootstrap.css">
+    <!-- CSS xzoom -->
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <!-- gijgo / combinied -->
+    <link rel="stylesheet" href="frontend/libraries/combined/css/gijgo.min.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="frontend/styles/main.css">
+
+    
+
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <center>
+                <a href="index.html" class="navbar-brand">
+                    <img src="frontend/images/lgo_travelR.png" alt="">
+                </a>
+                <span class="text-muted">
+                    <!-- nbsp untuk spasi -->
+                    | &nbsp; Beyond the explorer of the world 
+                </span>
+            </center>
+        </nav>
+    </div>
+
+    <main>
+        <div class="section-success d.flex align-items-center">
+            <div class="col text-center">
+                <img src="frontend/images/ilust_success.png" alt="" height="200px">
+                <h1>Yeyy! Success</h1>
+                <p>
+                    We’ve sent you email for trip instruction
+                    <br>
+                    please read it as well
+                </p>
+                <a href="index.html" class="btn btn-home mt-3 px-5">
+                    Home Page
+                </a>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- JQuery -->
+    <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <!-- JS Bootstrap -->
+    <script src="frontend/libraries/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <!-- retina JS -->
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <!-- xZoom -->
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <!-- Panggil gijgo /combinied -->
+    <script src="frontend/libraries/combined/js/gijgo.min.js"></script>
+    <!-- manggil xzoom -->
+    <script>
+        $(document).ready(function() {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+            $('.datepicker').datepicker({
+                ulibrary : 'bootsrap4',
+                icons: {
+                    rightIcon: '<img src="frontend/images/ic_date.png" height="18px" />'
+                }
+            })
+
+        });
+    </script>
+
+</body>
+</html>

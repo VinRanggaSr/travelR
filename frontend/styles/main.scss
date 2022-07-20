@@ -465,3 +465,30 @@ header{
 
     
 }
+
+.section-success{
+    margin-top: 10%;
+
+    h1{
+        font-weight: 600;
+        font-size: 26px;
+        color: #0E0546;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 18px;
+        color: #B1B1B1;
+    }
+
+    .btn-home{
+        border-radius: 5px;
+        background-color: #0E0546;
+        color: #ffffff;
+
+        &:hover{
+            background-color: #1e3777;
+            color: #ffffff;
+        }
+    }
+}

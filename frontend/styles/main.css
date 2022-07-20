@@ -371,4 +371,27 @@ header .btn-get-started:hover {
 .section-details-content .btn-join-now:hover {
   background-color: #ffaa69;
   color: #ffffff;
+}
+
+.section-success {
+  margin-top: 10%;
+}
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #0E0546;
+}
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+.section-success .btn-home {
+  border-radius: 5px;
+  background-color: #0E0546;
+  color: #ffffff;
+}
+.section-success .btn-home:hover {
+  background-color: #1e3777;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
